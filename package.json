@@ -1,0 +1,8 @@
+{
+  "name": "mern-plates",
+  "version": "0.1.0",
+  "description": "Boilerplates for projects, each branch represents a different boilerplate, check README of each branch.",
+  "author": "mernxl <mernxl@gmail.com>",
+  "license": "NOLICENSE",
+  "private": true
+}
