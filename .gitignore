@@ -25,3 +25,7 @@ Thumbs.db
 
 # dependencies
 /node_modules
+
+# Compiled Webpack Output
+dev
+dist

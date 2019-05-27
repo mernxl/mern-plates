@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dev",
+    "strict": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "esnext.asynciterable"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "plugins": [
+      { "transform": "ts-optchain/transform" }
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "src/**/__tests__",
+    "node_modules"
+  ]
+}
